@@ -3,9 +3,11 @@ A model for dialogue management.
 
 **Still Doing...**
 
+run in python3.
+
 Test case 1:
 ```console
-(parser_env) ✔ ~/miopas/topic_tree_model
+✔ ~/miopas/topic_tree_model
 18:00 $ python run.py
 system output > Hello
 Enter your input > {"domain":"flight", "intent":"book", "slots":{"customer_name":"Jack"}}
@@ -17,8 +19,8 @@ system output > END
 ```
 
 Test case 2:
-```
-(parser_env) ✔ ~/miopas/topic_tree_model
+```console
+✔ ~/miopas/topic_tree_model
 18:00 $ python run.py
 system output > Hello
 Enter your input > {"domain":"flight", "intent":"book", "slots":{"customer_name":"Jack"}}
