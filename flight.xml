@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<domain name="flight">
+	<intent name="book">
+		<slot name="customer_name">
+			<alias>name</alias>
+			<request>
+				<text>Please input your %alias%.</text>
+			</request>
+			<ack>
+				<text>Please confirm that Your %alias% is %value%. (Yes/No) </text>
+			</ack>
+		</slot>
+
+		<slot name="start_city" >
+			<alias>departure</alias>
+			<request>
+				<text>Please input your %alias%.</text>
+			</request>
+			<ack>
+				<text>Do you take off from %value%?</text>
+			</ack>
+		</slot>
+
+		<slot name="arrive_city" >
+			<alias>arrival</alias>
+			<request>
+				<text>Please input your %alias%.</text>
+			</request>
+			<ack>
+				<text>Do you arrive at %value%?</text>
+			</ack>
+		</slot>
+
+		<slot name="flight_company" optional="True">
+			<alias>flight company</alias>
+		</slot>
+
+	</intent>
+</domain>
+</data>

@@ -1,7 +1,7 @@
 # topic_tree_model
 A model for dialogue management.
 
-Still Doing...
+**Still Doing...**
 
 Test case 1:
 ```console
@@ -27,5 +27,5 @@ Enter your input > {"domain":"flight", "intent":"book", "slots":{"start_city":"c
 system output > END
 ```
 
-reference:
+## Reference
 [基于主题森林结构的对话管理模型](http://cslt.riit.tsinghua.edu.cn/~fzheng/PAPERS/2003/0303C_ActaAutomatica-TopicForest_WXJ(ZF).pdf)
